@@ -1,0 +1,254 @@
+body {
+    width: 550px;
+    height: 100%;
+    margin: auto;
+    font-family: "Inter";
+    background: #2B2B2B;
+    color: #FFFFFF
+}
+
+.top {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 208px;
+}
+
+.my-watchlist-btn {
+    border: none;
+    background: #2B2B2B;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    padding: 1em;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    font-weight: 700
+}
+
+.my-watchlist-btn:hover {
+    cursor: pointer
+}
+
+.search-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    margin-top: -20px;
+    margin-bottom: -20px;
+    width: 464px;
+    height: 38px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    background-color: #2B2B2B;
+}
+
+.icon-text {
+    display: flex;
+    justify-content: space-between;
+    margin: 1em;
+}
+
+.fa-search {
+    margin: auto 0
+}
+
+input {
+    border: none;
+    margin-left: 1em;
+    font-size: 1rem;
+    height: 25px;
+    width: 290px;
+    background: #2B2B2B;
+    border: #FFFFFF;
+    color: #FFFFFF
+}
+
+#search-btn {
+    width: 120px;
+    height: 100%;
+    border: none;
+    border-radius: 5px;
+    border-left: 1px solid;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    background: #2B2B2B;
+    color: #FFFFFF
+}
+
+#search-btn:hover {
+    cursor: pointer
+}
+
+.start-exploring-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 50vh;
+    justify-content: center;
+    color: #DFDDDD;
+}
+
+#my-watchlist-container {
+    display: none;
+}
+
+h2 {
+    font-size: 1.1rem;
+    font-weight: 700;
+    margin-top: 0
+}
+
+.films-container {
+    margin-top: 3em;
+    border-top: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.film {
+    margin-top: 1em;
+    width: 500px;
+    height: 200px;
+    display: flex;
+    border-bottom: 1px solid
+}
+
+.second-column {
+    padding: 0 1em;
+    margin: auto 0;
+}
+
+img {
+    grid-area: "img";
+    width: 99px;
+    height: 130px;
+    margin: auto 0;  
+}
+
+.first-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 20px;
+}
+
+.second-row {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 20px;
+    margin-top: 0.5em;
+}
+
+.fa-circle-plus {
+    margin-right: 0.3em
+}
+
+.title {
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 0;
+    letter-spacing: -0.1em;
+    word-spacing: 0.1em
+}
+
+.star-and-rating {
+    display: flex;
+    align-items: center;
+    height: 15px
+}
+
+.fa-star {
+    font-size: 0.8em;
+}
+
+.rating {
+    font-size: 0.8rem;
+    font-weight: 400;
+}
+
+.runtime, .genre {
+    font-size: 0.7rem;
+}
+
+.add-btn {
+    border: none;
+    height: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.add-btn:hover {
+    cursor: pointer
+}
+
+.button-text {
+    font-size: 0.7rem
+}
+
+.plot {
+    font-size: 0.8rem;
+}
+
+.runtime, .genre {
+    font-size: 0.7rem;
+}
+
+.add-btn {
+    border: none
+}
+
+.add-btn:hover {
+    cursor: pointer
+}
+
+.button-text {
+    font-size: 0.7rem
+}
+
+.plot {
+    grid-area: "plot";
+    font-size: 0.8rem;
+    width: 358px;
+    height: 60px;
+    margin-top: 0.5em;
+}
+
+#add-button-icon {
+    display: none
+}
+
+.not-found {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 1.1rem;
+    line-height: 20px;    
+    text-align: center;
+    color: #DFDDDD;
+}
+
+.message {
+    border: 1px solid;
+    position: fixed;
+    left: 40%;
+    background: #161414;
+    font-size: 1.5rem;
+    padding: 10px 5px;
+    border-radius: 20px;
+    color: #FFFFFF
+}
+
+.hidden {
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s 1s, opacity 1s linear;
+}

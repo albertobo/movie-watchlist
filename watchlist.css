@@ -1,0 +1,167 @@
+body {
+    width: 550px;
+    height: 100%;
+    margin: auto;
+    font-family: "Inter";
+    background: #2B2B2B;
+    color: #FFFFFF
+}
+
+.top {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 208px;
+    padding: 0;
+}
+
+.my-watchlist-btn {
+    border: none;
+    background: #2B2B2B;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    padding: 1em;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    font-weight: 700
+}
+
+.my-watchlist-btn:hover {
+    cursor: pointer
+}
+
+
+.icon-text {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 1em
+}
+
+#my-watchlist-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+}
+
+h2 {
+    font-size: 1.1rem;
+    font-weight: 700;
+    margin-top: 25vh;
+}
+
+.film {
+    width: 500px;
+    height: 200px;
+    display: flex;
+}
+
+.second-column {
+    padding: 0 1em;
+    margin: auto 0;
+}
+
+img {
+    grid-area: "img";
+    width: 99px;
+    height: 130px;
+    margin: auto 0;  
+}
+
+.first-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0em;
+    height: 20px;
+}
+
+.second-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 20px;
+    margin-top: 0.3em
+}
+
+.title {
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 0;
+    letter-spacing: -0.1em
+}
+
+.star-and-rating {
+    display: flex;
+    align-items: center;
+    height: 15px
+}
+
+.fa-star {
+    font-size: 0.8em;
+}
+
+.rating {
+    font-size: 0.8rem;
+    font-weight: 400;
+}
+
+.runtime, .genre {
+    font-size: 0.7rem;
+}
+
+.remove-btn {
+    border: none;
+    height: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.remove-btn:hover {
+    cursor: pointer
+}
+
+.button-text {
+    font-size: 0.7rem
+}
+
+.plot {
+    font-size: 0.8rem;
+    margin-top: 0.8em
+}
+
+.hidden {
+    display: none
+}
+
+.empty {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 1.1rem;
+    line-height: 20px;    
+    text-align: center;
+    color: #DFDDDD;
+}
+
+.search {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 0.9rem;
+    line-height: 20px;    
+    text-align: center;    
+    color: #363636;
+    width: 190px;
+    margin: auto
+}
+
+.fa-solid {
+    margin-right: 0.5em;
+}

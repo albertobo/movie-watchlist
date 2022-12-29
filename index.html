@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="index.css">    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" 
+    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;700;800&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body>
+    <header>
+        <div class="top">
+            <h1>Find your film</h1>
+            <a href="watchlist.html">
+                <button class="my-watchlist-btn">My watchlist</button>
+            </a>            
+        </div>     
+        <div id="search-container" class="search-container">
+            <div class="icon-text">
+            <i class="fa fa-search"></i>
+            <input type="text" placeholder="" id="search-text"se>
+            </div>
+            <button id="search-btn">Search</button>
+        </div>
+        <div id="my-watchlist-container"></div> 
+        </header>
+        <main id="films-container" class="films-container">
+            <div class="start-exploring-container">
+                <i class="fa fa-film fa-4x"></i>
+                <h2>Start exploring</h2>
+            </div>
+            <i class="fa-solid fa-circle-plus" id="add-button-icon"></i>   
+        </main>     
+        <script src="index.js" type="module"></script>
+</body>

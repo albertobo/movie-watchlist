@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="watchlist.css">    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" 
+    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;700;800&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body>
+    <header>
+        <div class="top">
+            <h1>My Watchlist</h1>
+            <a href="index.html">
+                <button class="my-watchlist-btn">Search for movies</button>
+            </a>            
+        </div>
+        <button id="search-btn" class="hidden">Search</button>
+    </header>      
+    <main>
+        <div id="my-watchlist-container">
+            <div>
+            <h2 class="empty">
+                Your watchlist is looking a little empty...
+            </h2>
+            <div class="search">
+            <i class="fa-solid fa-circle-plus" id="add-button-icon"></i>
+            <p>Let’s add some movies!</p>
+            </div>
+            </div>
+        </div>
+    </main>   
+    <script src="index.js"></script>
+</body>
