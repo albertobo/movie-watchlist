@@ -173,3 +173,96 @@ img {
 .fa-solid {
     margin-right: 0.5em;
 }
+
+@media (min-width: 600px) {
+    * {
+        box-sizing: border-box
+    }
+    body {
+        width: 100%
+    }
+
+    .top {
+        margin: auto;
+        width: 600px
+    }
+    
+    input {
+        width: 370px;
+    }
+
+    #search-btn {
+        font-size: 1.3rem;
+        width: 150px
+    }
+    
+    .start-exploring-container, .search-container {
+        width: 600px;
+    }
+    
+    .films-container {
+        width: 100%;
+    }
+    
+    .film {
+        margin: auto;
+        justify-content: space-around;
+        flex-direction: row;
+        display: flex;
+        width: 80%
+    }
+    
+    img {
+        margin: 1em 0;
+        width: 210px;
+        height: 300px;
+    }
+
+    .second-row {
+        width: 700px;
+        justify-content: space-around
+    }
+
+    .first-row {
+        justify-content: flex-start;
+        font-size: 1.8rem;
+        width: 700px
+    }
+    
+    .fa-circle-plus {
+        margin-right: 0.4em
+    }
+    
+    .title {
+        margin-right: 1em;
+        font-size: 1.8rem;
+    }
+    
+    .fa-star {
+        font-size: 0.6em;
+    }
+    
+    .rating {
+        font-size: 1rem
+    }
+    
+    .runtime, .genre {
+        font-size: 0.9rem;
+    }
+    
+    .button-text {
+        font-size: 0.9rem
+    }
+    
+    .runtime, .genre {
+        font-size: 0.9rem;
+    }
+    
+    .plot {
+        line-height: 1.5em;
+        margin-top: 2em;
+        font-size: 1.1rem;
+        width: 700px;
+    }
+    
+}
