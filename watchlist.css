@@ -1,5 +1,5 @@
 body {
-    width: 550px;
+    width: 450px;
     height: 100%;
     margin: auto;
     font-family: "Inter";
@@ -51,37 +51,41 @@ h2 {
 }
 
 .film {
-    width: 500px;
-    height: 200px;
+    height: 100%;
+    flex-direction: column;
+    margin-top: 1em;
+    width: 320px;
     display: flex;
+    border-bottom: 1px solid
 }
 
 .second-column {
-    padding: 0 1em;
+    display: flex;
+    flex-direction: column;
+
     margin: auto 0;
 }
 
 img {
+    align-self: center;
     grid-area: "img";
-    width: 99px;
-    height: 130px;
-    margin: auto 0;  
+    width: 120px;
+    height: 180px;
 }
 
 .first-row {
+    width: 100%;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    padding: 0em;
-    height: 20px;
+    justify-content: space-around;
 }
 
 .second-row {
+    position: relative;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     height: 20px;
-    margin-top: 0.3em
 }
 
 .title {
@@ -92,21 +96,25 @@ img {
 }
 
 .star-and-rating {
+    padding: 0;
     display: flex;
     align-items: center;
     height: 15px
 }
 
 .fa-star {
+    padding: 0;
     font-size: 0.8em;
 }
 
 .rating {
+    padding: 0;
     font-size: 0.8rem;
     font-weight: 400;
 }
 
 .runtime, .genre {
+    padding: 0;
     font-size: 0.7rem;
 }
 
